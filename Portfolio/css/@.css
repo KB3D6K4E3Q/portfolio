@@ -1,0 +1,156 @@
+@media  screen and (max-width: 810px){
+    .hero p{
+        font-size: 2vw;
+    }
+}
+
+
+@media  screen and (max-width: 430px){
+    .hero p{
+        font-size: 2.75vw;
+    }
+}
+@media screen and (max-width: 1460px) {
+    .hero p{
+        padding-left: 13vw;
+    }
+}
+
+
+
+ @media screen and (max-width: 430px) {
+    .hero h1{
+        font-size: 9.5vw;
+    }
+ }   
+
+
+ @media screen and (max-width: 810px){
+    .gradient h1{
+        font-size: 5.5vw;
+        padding-left: 7.5vw;
+    } 
+ }
+
+
+ @media screen and (max-width: 400px){
+    .gradient h1{
+        font-size: 7.5vw;
+        padding-left: 7.5vw;
+        max-width: 70vw;
+    }   
+ }
+
+ /* navbar*/
+
+ @media screen and (max-width: 1535px) {
+        .navbar{
+            padding: 15px 3%;
+            transition: .2s;
+        }
+        .logo{
+            padding-left: 10rem;
+        }
+ }
+
+ @media screen and (max-width: 1460px) {
+        section{
+            padding: 0 12%;
+            transition: 0.2s;
+        }
+ }
+
+ @media screen and (max-width: 940px) {
+    .hero p{
+        font-size: 1.75vw;
+    }
+
+    .logo{
+        padding-left: 5vw;
+    }
+
+    .navlist a{
+        padding: 0;
+        margin: 1vw;
+    }
+       
+ }
+
+ @media screen and (max-width: 549px){
+    .navlist a{
+        font-size: 2.5vw;
+    }
+ }
+
+ @media screen and (max-width: 430px){
+    .logo{
+        font-size: 4vw;
+    }
+    .navlist a{
+        font-size: 2vw;
+        margin: 2vw;
+    }
+    .navlist{
+        display: flex;
+        justify-content:space-between;
+    }
+
+ }
+
+ @media screen and (min-width: 1100px) {
+    .gradient h1{
+        font-size: 3.4vw;
+        max-width: 100vw;
+        font-weight: 900;
+        margin-right: 22vw;
+        font-family: roboto;
+        color: transparent;
+        -webkit-text-stroke: 0.25px  darkmagenta ;
+        position: relative;
+    }
+    
+    .gradient h1::before{
+        content: "Great website should aspire to feel obvious, like there was never better way to do it";
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        overflow: hidden;
+        color:  darkmagenta;
+        border-right: 8px solid darkmagenta;
+        transition: 0.75s ease-in-out;
+    }
+    
+    .gradient h1:hover::before{
+        width: 100%;
+        filter: drop-shadow(0 0 25px darkmagenta);
+    }
+ }
+
+ @media screen and (max-width: 1100px){
+    .gradient h1{
+        padding-left: 18vw;
+        margin-left: 0;
+        background: linear-gradient(45deg, #ee7752, #e73c7e,#23a6d5, #23d5ab);
+        background-size: 300%;
+        -webkit-background-clip: text;
+        background-size: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 0.9;
+        animation: animate 5s ease-in-out infinite;
+
+    }
+ }
+
+ @keyframes animate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% {background-position: 0 50%;}
+
+ }
+
+ @media screen and (max-width: 450px){
+    .gradient h1{
+        max-width: 60vw;
+        padding-left: 13vw;
+    }
+ }

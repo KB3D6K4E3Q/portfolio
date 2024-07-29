@@ -1,0 +1,66 @@
+footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #212529;
+    height: 35vh;
+}
+
+.footerContainer{
+    width: 100vw;
+    height: 20vh;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.socialIcons a{
+   text-decoration: none;
+   padding: 10px;
+   background-color: white;
+   margin: 10px;
+   border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0,9;
+}
+
+/* Hover effect*/
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.desinger{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/* small devices*/
+
+@media screen and (min-width: 370px) {
+
+}
